@@ -40,7 +40,7 @@ function Login() {
       try {
 
         
-        const res = await fetch('https://login-backend-production.up.railway.app/login', {
+        const res = await fetch('https://login-backend-production-f9fc.up.railway.app/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
